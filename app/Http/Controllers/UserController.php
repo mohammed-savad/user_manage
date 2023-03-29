@@ -68,6 +68,7 @@ class UserController extends Controller
         } else {
             $response = ["message" =>'User does not exist'];
             return response($response, 422);
+            
         }
     }
 
